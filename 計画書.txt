@@ -21,9 +21,13 @@
 	int x,y	2次元座標
 	int r	有効範囲の半径
 　「関数」
-int view(char) 視点
+void show_start(void ) スタート画面の表示
+void show_North(void ); 北方向の視点を表示
+void show_East(void ); 東方向の視点を表示
+void show_South(void ); 南方向の視点を表示
+void show_West(void ); 西方向の視点を表示
+void view_switch(void ); 視点の切り替え
 char com(char) コマンド入力
-void show_screen(void) 視点に対応した画面の表示
 int check_range()
 int key(void) 脱出に必要な鍵をもっているか
 void show_rank(void) ランキングの表示
